@@ -32,6 +32,7 @@ button{
     font-weight: 700;
 }
 
+
 .navbar-brand{
     text-decoration: none;
     color: white;
@@ -252,17 +253,37 @@ footer{
         visibility: hidden;
     }
 
+    .main-items{
+        width: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        scroll-behavior: smooth;
+    }
+    .main-item{
+        width: 203px;
+        /* display: flex;  */
+        gap: 7vw;
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
     .main-img{
         filter: drop-shadow(10px 10px 5px rgb(51, 50, 50));
         margin-bottom: 15px;
         border-radius: 10px;
-        width: 150px;
+        width: 100px;
+        flex-direction: row;
     }
     
     .main-item-info{
-        font-size: small;
+        margin:  0 auto;
+        width: 50%;
+        font-size: x-small;
         font-family: 'Bebas Neue', cursive;
         line-height: 1;
         margin-top: 5px;
+        text-align:center;
     }
 }
